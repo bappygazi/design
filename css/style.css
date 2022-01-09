@@ -74,16 +74,12 @@ body {
   color: white;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  background: -webkit-linear-gradient(160deg, #fbc63b, #de8a26);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
-  background: -webkit-linear-gradient(160deg, #fbc63b, #de8a26);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
 }
 
 /*banner part css*/
