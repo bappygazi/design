@@ -45,4 +45,13 @@ $(function () {
       $(".nav-link").removeClass("text-black");
     }
   });
+  //bar color black
+  $(window).scroll(function () {
+    var scrolling = $(this).scrollTop();
+    if (scrolling >= 30) {
+      $(".fa-bars ").removeClass("bar-white");
+    } else {
+      $(".fa-bars").addClass("bar-white");
+    }
+  });
 });
