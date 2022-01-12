@@ -311,6 +311,8 @@ body {
 .about-text-content {
   line-height: 2.2;
 }
+
+/* insetors part css */
 #insetors-banner {
   padding-top: 200px;
   padding-bottom: 150px;
@@ -320,6 +322,9 @@ body {
   background-repeat: no-repeat;
   background-image: url(../imgaes/banner6.jpg);
 }
+#investors-content {
+  padding: 100px 0;
+}
 #insetors-banner:after {
   top: 0;
   left: 0;
@@ -328,6 +333,43 @@ body {
   height: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.investors-content-img {
+  transition: all 0.3s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../imgaes/investors-banner.jpg);
+}
+/* .investors-item:hover .investors-content-img {
+  overflow: hidden;
+  transform: scale(1.1);
+} */
+
+.investors-content-text h3 {
+}
+.investors-content-text p {
+  font-size: 18px;
+}
+.investors-content-text ul li i {
+  font-size: 22px;
+}
+.investors-content-text ul li {
+  font-size: 17px;
+}
+.investors-btn {
+  padding: 16px 25px;
+  border: 2px solid #fbc63b;
+  font-size: 20px;
+  background: -webkit-linear-gradient(160deg, #fbc63b, #de8a26);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all linear 0.2s;
+}
+.investors-btn:hover {
+  -webkit-text-fill-color: #ffffff;
+  border: 0;
+  background: linear-gradient(to right, #fbc63b, #de8a26) border-box;
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) {
