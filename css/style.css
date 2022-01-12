@@ -282,6 +282,32 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
 }
+.about-banner-header {
+  z-index: 1;
+}
+.about-banner-header h3 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.about-banner-header h3:after {
+  left: 50%;
+  width: 50%;
+  height: 2px;
+  content: "";
+  bottom: -5px;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+}
+#about-content {
+  padding: 100px 0;
+}
+
+.about-text-content {
+  line-height: 2.2;
+}
+
+/* insetors part css */
 .banner-header {
   z-index: 1;
 }
@@ -304,15 +330,6 @@ body {
   transform: translateX(-50%);
   background-color: #ffffff;
 }
-#about-content {
-  padding: 100px 0;
-}
-
-.about-text-content {
-  line-height: 2.2;
-}
-
-/* insetors part css */
 #insetors-banner {
   padding-top: 200px;
   padding-bottom: 150px;
