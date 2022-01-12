@@ -265,9 +265,9 @@ body {
 
 /* about part css */
 #about-banner {
+  position: relative;
   padding-top: 200px;
   padding-bottom: 150px;
-  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,12 +289,17 @@ body {
   font-size: 55px;
   font-weight: 700;
 }
+.banner-header p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
 .banner-header h3:after {
   left: 50%;
-  bottom: 0;
   width: 50%;
   height: 2px;
   content: "";
+  bottom: 40px;
   position: absolute;
   transform: translateX(-50%);
   background-color: #ffffff;
@@ -305,6 +310,24 @@ body {
 
 .about-text-content {
   line-height: 2.2;
+}
+#insetors-banner {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../imgaes/banner6.jpg);
+}
+#insetors-banner:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) {
