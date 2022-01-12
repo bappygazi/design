@@ -263,6 +263,49 @@ body {
   font-size: 30px;
 }
 
+/* about part css */
+#about-banner {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../imgaes/banner6.jpg);
+}
+#about-banner:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.banner-header {
+  z-index: 1;
+}
+.banner-header h3 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.banner-header h3:after {
+  left: 50%;
+  bottom: 0;
+  width: 50%;
+  height: 2px;
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+}
+#about-content {
+  padding: 100px 0;
+}
+
+.about-text-content {
+  line-height: 2.2;
+}
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) {
   #banner {
@@ -282,6 +325,12 @@ body {
     background: -webkit-linear-gradient(160deg, #fbc63b, #de8a26);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  #about-content {
+    padding-bottom: 50px;
+  }
+  #build {
+    padding-top: 50px;
   }
   #footer {
     background-size: cover;
