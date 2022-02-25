@@ -165,10 +165,6 @@ body {
   height: 80px;
 }
 
-.productivity-item-icon {
-  width: 40%;
-}
-
 .productivity-item-icon i {
   font-size: 60px;
   background: -webkit-linear-gradient(160deg, #fbc63b, #de8a26);
@@ -533,6 +529,20 @@ body {
   content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
+}
+.contact-number a {
+  color: #212529;
+  font-size: 16px;
+  width: fit-content;
+}
+.contact-number a i {
+  color: #ffffff;
+  font-size: 16px;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #fbc63b, #de8a26) border-box;
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) {
