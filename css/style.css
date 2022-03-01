@@ -464,7 +464,9 @@ body {
 .buyers-itme p {
   font-size: 18px;
 }
-
+.buyers-itme .card-body a:hover {
+  padding-right: 15px;
+}
 /* contact part css start */
 #contact {
   position: relative;
